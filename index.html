@@ -11,37 +11,43 @@
              background-color: #045f3a13;
              border-radius: 15px;
              padding: 3px;
+             padding-left: -50px;
+             padding-right: -50px;
            }
-           .menu {
-             position: fixed;
-             background-color: white;
-             color: black;
-             border-radius: 15px;
-             padding: 13px;
-             font-size: 25px;
+           a li {
+             display: inline;
+             background-color: #049f48;
+             padding: 7px;
+             font-size: 18px;
+             border-radius: 17px;
            }
-           .menu:hover {
+           a li:hover {
              background-color: gray;
-             color:white;
            }
-           .option {
-             background-color: #01381e;
-             border-radius: 8px;
+           ul {
+             list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
              position: fixed;
-             padding: 15px;
-             left: 20%;
+             background-color: #ffffffa5;
+             padding: 10px;
+             margin: auto;
+             border-radius:10px;
+             width: 175px;
+             bottom: 1%
            }
-           .yedisp {
-             display: block;
+           button:hover {
+             background-color: gray;
+             height:40px;
            }
           </style>
-          <div class="menu" onclick="document.getElementById('options').style.display = 'block';"> ≡ </div>
-            <div id="options" style="display: none;">
-              <a href="#links"><div class="option">Links</div></a><br><br><br>
-              <a href="#projects"><div class="option">Projects</div></a>
-            </div>
-          <div style="background-image: url(https://media.discordapp.net/attachments/934318145185906720/1038454449535975534/hbgimg.png);">
-            <img src="fp.png" height="240">
+            <ul>
+              <a href="#links"><li>Links</li></a>
+              <a href="#projects"><li>Projects</li></a>
+            </ul>
+          <div>
+            <img src="https://fox198nt.github.io/images/fpwbg.png" style="left:0%; height:210px;">
             <h1>Fox198nt</h1><br>
           </div><br>
     </head>
@@ -65,8 +71,8 @@
           <img src="/images/Mareg Browser.png" height="95px"><p>Mareg Browser</p>
           <img src="/images/YellowCade.png" height="95px"><p>YellowCade</p>
           <img src="/images/BOLT.png" height="95px"><p>Bolt</p>
-          <img src="/images/Avaron.png" height="95px"><p>Avaron</p>
+          <a href="https://site.avaron.repl.co/"><img src="/images/Avaron.png" height="95px"><p>Avaron</p></a>
         </div><br><br>
     </body>
-    <h6><i class="fa fa-exclamation-triangle"></i> Website still in development, some things may be buggy!</h6>
+    <h6><i class="fa fa-check"></i> Everything seems to be alright!</h6><br>
 </html>
